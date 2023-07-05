@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Kevin\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js serve
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Windows\System32;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Kevin\AppData\Local\Microsoft\WindowsApps;C:\Users\Kevin\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\Kevin\AppData\Local\Programs\Python\Python311;C:\Program Files\Azure Data Studio\bin;C:\Users\Kevin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Kevin\.dotnet\tools;C:\Users\Kevin\AppData\Roaming\npm;C:\Users\Kevin\AppData\Local\Programs\Python\Python311;C:\Users\Kevin\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\Kevin\Desktop\Septimo Semestre Udla\Ingeniería Web Clases\Links Deberes\MINICORE KF\MINICORE-FUNCIONAL1\MiniCoreFrontEnd-master\MiniCoreFrontEnd-master\package.json: Unexpected token { in JSON at position 94
+      at JSON.parse (<anonymous>)
+      at C:\Users\Kevin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Kevin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\Kevin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "minicorefront",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    {
+      "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build"
+      }
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.18.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
